@@ -3,6 +3,8 @@
 ## Overview
 This repository contains the implementation of a Deep Q-Network (DQN) to train an agent for playing Flappy Bird. The model leverages convolutional neural networks to process game frames and reinforcement learning principles to optimize gameplay decisions.
 
+## Environment
+The environment was taken from https://github.com/yenchenlin/DeepLearningFlappyBird/blob/master/game/wrapped_flappy_bird.py since the environment provided in the Tensor-Reloaded repository was unfortunately too slow to train on (regradless if the game was displayed or not)
 ---
 
 ## Hyperparameters
